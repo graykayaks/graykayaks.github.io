@@ -1,0 +1,107 @@
+/*Home -------------------------------------------*/
+body {
+    margin: 0px;
+    background-color: beige;
+}
+
+.nav-wrapper {
+    display: flex;
+    padding: 25px;
+}
+
+/*Links to Lifestyles and Database*/
+.nav-wrapper > .bottom > div{
+position: absolute;
+align-self: center;
+margin-left: 30%;
+margin-top: 700px;
+font-size: 1.5em;
+}
+
+/*Picture of Ultimate Leader Alexander*/
+.nav-wrapper > .middle > div{
+    display: inline-block;
+    position: absolute;
+    align-self: center;
+    margin-top: 10%;
+    margin-left: 300px;
+    margin-right: 700;
+    border: 4px solid burlywood;
+    }
+
+/*Links to Sign In and Register*/
+.nav-wrapper > .top-right > div{
+position: absolute;
+right: 30px;
+font-size: 1.5em;
+}
+
+/*All buttons on the homepage*/
+.nav-link-wrapper a {
+background-color: gold;
+text-decoration: none;
+padding: 10px 10px;
+text-align: center;
+color: black;
+display: inline-block;
+border-radius: 100px;
+}
+
+.text {
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    margin-left: 15%;
+}
+
+/*Welcome*/
+.intro-text {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.75em;
+}
+
+/*Endorsement*/
+.text2 {
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 175px;
+}
+.intro-text2 {
+    display: inline-block;
+    border: 2px solid burlywood;
+    background-color: wheat;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+/*Directions for Lifestyles*/
+.text3 {
+    position: absolute;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 250px;
+}
+.intro-text3 {
+    display: inline-block;
+    border: 2px solid burlywood;
+    background-color: wheat;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+/*Directions for Database*/
+.text4 {
+    text-align: right;
+    margin-right: 100px;
+    margin-top: 250px;
+}
+.intro-text4 {
+    display: inline-block;
+    border: 2px solid burlywood;
+    background-color: wheat;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+/*Lifestyles -------------------------------------------*/

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "utf-8"/>
+    <title>Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+.item1 { grid-area: title; }
+.item2 { grid-area: picture; }
+.item3 { grid-area: main; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'picture title . . . .'
+    'picture main main main main main'
+    'picture main main main main main'
+    'picture main main main main main';
+  grid-gap: 10px;
+  background-color: burlywood;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: wheat;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<h1>Appropriate Lifestyles</h1>
+
+<div class="grid-container">
+  <div class="item1">Title</div>
+  <div class="item2">Picture</div>
+  <div class="item3">Description</div>  
+</div>
+
+</body>
+</html>
